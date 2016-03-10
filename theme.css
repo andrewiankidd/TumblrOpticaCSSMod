@@ -2055,7 +2055,6 @@
             
             .index-page.grid .post {
               margin-bottom: 0;
-              max-height: 230px;
             }
             
             .index-page.grid .panel {
@@ -3208,6 +3207,17 @@
             }
             
             body{min-width:977px;}
+            .related-posts-wrapper .related-posts .caption{
+                max-height: 24px;
+                font-weight: bold;
+                font-size: 12pt;
+            }
+            section.inline-meta.post-extra.has-tags{display:none;}
+            .index-page.grid .post .caption{
+                max-height: 24px;
+                font-weight: bold;
+                font-size: 12pt;
+            }
 
             /* Custom CSS */
             {CustomCSS}
